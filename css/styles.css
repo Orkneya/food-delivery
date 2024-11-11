@@ -40,6 +40,24 @@ button {
         padding: 0 16px;
     }
 }
-.`{
+.hidden{
   display: none;  
+}
+.header-button {
+    border: none;
+    border-radius: 30px;
+    min-width: 98px;
+    height: 32px;
+    background-color: #bbf330;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+/* header */
+ 
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
 }
