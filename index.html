@@ -18,7 +18,12 @@
     <!-- header -->
     <header class="header-menu">
      <div class="container header-container">
-        <a href="" class="header-send"><img class="header-send-img" src="./images/vector.svg" alt="logo" width="66" height="52"></a>
+        <a href="" class="header-send">
+            <svg class="header-icon">
+                <use href="/images/icons.svg#icon-Food-star" width="66" height="52"></use>
+            </svg>
+            <!-- <<img class="header-send-img" src="./images/vector.svg" alt="logo" width="66" height="52"> -->
+        </a>
         <nav class="header-nav"> 
             <ul class="header-list">
                 <li class="header-items"><a class="nav-link" href="">Home</a></li>
@@ -33,7 +38,7 @@
     </header>
    <main>
     <!-- 1 section -->
-    <section class="enjoy">
+    <section class="enjoy hidden">
        <div class="container enjoy-container">
         <div class="enjoy-text-wrap">
                 <h1 class="enjoy-title">Enjoy Your Favorite Food From Anywhere</h1>
@@ -52,7 +57,7 @@
         </div>
     </section>
      <!-- 2 section -->
-    <section class="about">
+    <section class="about hidden">
       <div class="container about-container">
         <img class="about-img" src="./images/apple.png" alt="apple" width="396" height="502">
         <div class="about-block">
@@ -86,7 +91,7 @@
     </div>
     </section>
      <!-- 3 section -->
-    <section class="favorites">
+    <section class="favorites hidden">
        <div class="container favorites-container">
             <h2 class="favorites-title">Some of Our Favorites</h2>
             <p class="favorites-text">Looking for something delicious? </p>
@@ -101,7 +106,7 @@
        </div>
     </section>
     <!-- 4 section -->
-    <section class="Customers">
+    <section class="Customers hidden">
       <div class="container Customers-container">
             <h2 class="Customers-title"> What our Customers Say </h2>
             <p class="Customers-text" > Don't just take our word for it - see what our satisfied customers have to say </p>
@@ -130,7 +135,7 @@
       </div>
     </section>
     <!-- 5 section -->
-    <section class="Offers">
+    <section class="Offers hidden">
       <div class="container Offers-container">
         <div class="Offers-wrap">
             <h2 class="Offers-title" >Subscribe To Get Special Offers</h2>
@@ -144,7 +149,7 @@
     </section>
   </main>
   <!-- footer -->
-  <footer class="footer">
+  <footer class="footer hidden">
     <div class="container footer-container">
         <div class="footer-wrap-start">
             <div class="footer-wrap">
@@ -185,7 +190,7 @@
 
   <!-- modal -->
 
-  <div class="backdrop is-open" data-modal>
+  <div class="backdrop is-open hidden" data-modal>
     <div class="modal">
         <button class="modal-close-btm"data-modal-close>x</button>
         <p class="modal-title">Order form</p>
